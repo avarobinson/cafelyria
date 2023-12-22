@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<script src="script.js"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background-color: #F1EBE2;
+    }
+    section {
+      text-align: center;
+    }
+    /* img {
+      width: 80vw;
+      display: block;margin: 0 auto;
+      margin-top: 30px;
+    } */
+    .fade-in {
+        opacity: 0;
+        transition: opacity 1s ease-in;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .lyria-logo {
+        width: 20vw;
+        min-width: 100px;
+        /* margin-top: 50px; */
+        max-width: 175px;
+    }
+    .lyria-image {
+        width: 80vw;
+        max-width: 900px;
+        border: 15px solid white;
+    }
+  </style>
+</head>
+<body>
+  <section class="fade-in">
+    <!-- <div class="image-container">
+        <img src="cafe.jpg" class="bottom-image">
+        <img src="cafe.png" class="top-image">
+    </div> -->
+    <img class="lyria-logo" src="lyrialogo.png">
+    <img class="lyria-image" src="cafe.jpg">
+    <p>166 CROSBY ST <br/> NEW YORK, NY</p>
+    <!-- <p>NEW YORK, NY</p> -->
+  </section>
+</body>
+</html>
